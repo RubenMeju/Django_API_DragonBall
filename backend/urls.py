@@ -32,8 +32,9 @@ urlpatterns = [
 
     path('api/character/', include('character.urls')),
     path('api/planet/', include('planet.urls')),
-    path('api/season/', include('season.urls')),
     path('api/episodes/', include('episode.urls')),
+    path('api/season/', include('season.urls')),
+    path('api/chapter/', include('chapter.urls')),
     path('api/movies/', include('movies.urls')),
 
 ]

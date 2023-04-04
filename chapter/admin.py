@@ -4,7 +4,7 @@ from .models import Chapter
 
 
 class ChapterAdmin(admin.ModelAdmin):
-    list_display = ['id', 'title']
+    list_display = ['id', 'title','season']
 
 
 admin.site.register(Chapter, ChapterAdmin)
