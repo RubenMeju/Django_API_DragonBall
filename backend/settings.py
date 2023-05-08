@@ -27,9 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-#DEBUG = False
+# DEBUG = False
 
-#ALLOWED_HOSTS = ["meju.pythonanywhere.com"]
+# ALLOWED_HOSTS = ["meju.pythonanywhere.com"]
 
 # Application definition
 
@@ -140,7 +140,7 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ],
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
-    'PAGE_SIZE': 25
+    'PAGE_SIZE': 6
 }
 
 
@@ -157,5 +157,3 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:8000",
 ]
-
-
