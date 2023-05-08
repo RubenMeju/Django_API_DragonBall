@@ -43,12 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_spectacular',
     "corsheaders",
-
     'character',
-    'planet',
-    'season',
-    'episode',
-    'chapter',
     'movies',
 ]
 
