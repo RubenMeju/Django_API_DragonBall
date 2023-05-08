@@ -1,0 +1,505 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-05-08T16:22:29.523Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Songoku",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-05-08T16:23:03.499Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Bulma",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add character",
+      "content_type": 7,
+      "codename": "add_character"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change character",
+      "content_type": 7,
+      "codename": "change_character"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete character",
+      "content_type": 7,
+      "codename": "delete_character"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view character",
+      "content_type": 7,
+      "codename": "view_character"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add movie",
+      "content_type": 8,
+      "codename": "add_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change movie",
+      "content_type": 8,
+      "codename": "change_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete movie",
+      "content_type": 8,
+      "codename": "delete_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view movie",
+      "content_type": 8,
+      "codename": "view_movie"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$plBSwp9oueO7Y9S7bVRCCy$t6Qq0Xjqx/k3tS6ZvBN2vnasYBHNqFDNnrVBdzzW/cw=",
+      "last_login": "2023-05-08T16:21:37.885Z",
+      "is_superuser": true,
+      "username": "meju",
+      "first_name": "",
+      "last_name": "",
+      "email": "rubenmeju@outlook.es",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-05-08T16:21:19.754Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "auth", "model": "user" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "character", "model": "character" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "movies", "model": "movie" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "rcxskeakymomk2c9nuw76uvh9qs6cadn",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pACMwFcuvcMZBhAqgaS0q6Md9cmXej2v_f-SwTa1hq2kZcwJ3EWSpx-t0j8yG0H6U7t1iX3ti5zlLsiDzrktaf8vBzu30GlUb91BiQPJqUM5MmzspYxW60hOXZsOKKDYrTRVvmIUyFj0PGESFTAF_H-AOiqN9w:1pw3cH:JitYHIHp4lynts7Ag_qbL0C4hWAYdwuyjiK0bo2-g4M",
+      "expire_date": "2023-05-22T16:21:37.887Z"
+    }
+  },
+
+  {
+    "model": "character.character",
+    "pk": 1,
+    "fields": {
+      "name": "Songoku",
+      "description": "personaje songoku",
+      "image": "characters/SonGoku.webp",
+      "species": "SA",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 2,
+    "fields": {
+      "name": "Bulma",
+      "description": "es bulma",
+      "image": "characters/bulma.webp",
+      "species": "HU",
+      "gender": "FE"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 3,
+    "fields": {
+      "name": "Vegeta",
+      "description": "príncipe de los Saiyajin",
+      "image": "characters/Vegeta.webp",
+      "species": "SA",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 4,
+    "fields": {
+      "name": "Piccolo",
+      "description": "Namekiano y antiguo enemigo de Goku",
+      "image": "characters/Piccolo.webp",
+      "species": "NA",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 5,
+    "fields": {
+      "name": "Muten Rōshi",
+      "description": "Muten Rōshi, también conocido como el Maestro Roshi, es un anciano maestro de artes marciales y uno de los personajes más emblemáticos de Dragon Ball. Es el mentor y figura paterna de Goku y Krilin, a quienes entrena en la Isla Kame. A pesar de su apariencia vieja y pervertida, es extremadamente poderoso y posee una gran cantidad de sabiduría. Muten Rōshi es conocido por su amor por las mujeres hermosas y por su afición a las revistas para adultos. Aunque a veces puede ser excéntrico y cómico, demuestra ser un aliado valioso en la lucha contra las fuerzas del mal.",
+      "image": "characters/MutenRoshi.webp",
+      "species": "HU",
+      "gender": "MA"
+    }
+  },
+
+  {
+    "model": "character.character",
+    "pk": 6,
+    "fields": {
+      "name": "Pilaf",
+      "description": "Pilaf es un pequeño y astuto emperador enano que busca las Esferas del Dragón con el fin de dominar el mundo. Es el líder de la Banda Pilaf, que incluye a sus leales secuaces Shu y Mai. Aunque Pilaf es ambicioso y está obsesionado con el poder, sus planes generalmente se ven frustrados por Goku y sus amigos. Pilaf es conocido por su actitud arrogante y su tendencia a subestimar a sus oponentes. Aunque no es uno de los villanos más poderosos de la serie, su presencia agrega un toque cómico a Dragon Ball.",
+      "image": "characters/Pilaf.webp",
+      "species": "HU",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 7,
+    "fields": {
+      "name": "Mai",
+      "description": "Mai es una leal secuaz de Pilaf y miembro de la Banda Pilaf. Acompaña a Pilaf en su búsqueda de las Esferas del Dragón para conquistar el mundo. Es habilidosa en combate y experta en el uso de armas. Aunque inicialmente es una antagonista, más tarde se vuelve más neutral y eventualmente muestra una actitud amigable hacia los protagonistas.",
+      "image": "characters/Mai.webp",
+      "species": "HU",
+      "gender": "FE"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 8,
+    "fields": {
+      "name": "Puar",
+      "description": "Puar es un pequeño y travieso gato antropomórfico que es amigo cercano de Yamcha. Puar tiene la habilidad de cambiar de forma y es muy útil en situaciones de espionaje y combate. Aunque es un personaje cómico, Puar muestra lealtad y valentía al enfrentarse a enemigos poderosos junto a sus amigos. A menudo acompaña a Yamcha en sus aventuras y es una parte querida del grupo de los Guerreros Z.",
+      "image": "characters/Puar.webp",
+      "species": "HU",
+      "gender": "NA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 9,
+    "fields": {
+      "name": "Shu",
+      "description": "Shu es uno de los leales secuaces de Pilaf y miembro de la Banda Pilaf. Acompaña a Pilaf en su búsqueda de las Esferas del Dragón con el objetivo de conquistar el mundo. Aunque no es el más valiente ni el más inteligente, Shu aporta su ingenio y habilidades técnicas al grupo. A menudo es utilizado como el alivio cómico y es conocido por sus travesuras y su torpeza.",
+      "image": "characters/Shu.webp",
+      "species": "HU",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 10,
+    "fields": {
+      "name": "Oolong",
+      "description": "Oolong es un cerdo antropomórfico con la habilidad de transformarse. Es un personaje cómico y a menudo se muestra egoísta y cobarde. Oolong se une a Goku y sus amigos en varias aventuras y proporciona alivio cómico con su personalidad sarcástica y comentarios mordaces. Aunque puede ser problemático, Oolong muestra momentos de valentía y amistad cuando es necesario.",
+      "image": "characters/Oolong.webp",
+      "species": "HU",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 11,
+    "fields": {
+      "name": "Tenshinhan",
+      "description": "Tenshinhan es un poderoso artista marcial y antiguo discípulo del Maestro Mutaito. Es conocido por su tercer ojo en la frente y su técnica especial, el Kikoho. Tenshinhan ha luchado tanto como aliado como rival de Goku. A lo largo de la serie, muestra un desarrollo de su personaje y se convierte en un valioso miembro de los Guerreros Z.",
+      "image": "characters/Tenshinhan.webp",
+      "species": "HU",
+      "gender": "MA"
+    }
+  }
+]
