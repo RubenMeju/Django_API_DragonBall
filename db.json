@@ -501,5 +501,214 @@
       "species": "HU",
       "gender": "MA"
     }
+  },
+  {
+    "model": "character.character",
+    "pk": 12,
+    "fields": {
+      "name": "Krillin",
+      "description": "Krillin es un humano y uno de los mejores amigos de Goku. Aunque carece de habilidades sobrehumanas, Krillin ha demostrado ser valiente y tenaz en la batalla. Ha participado en numerosos combates y ha sido fundamental en la derrota de varios enemigos poderosos. A pesar de su apariencia calva y pequeña estatura, Krillin es respetado y apreciado por su determinación y lealtad.",
+      "image": "characters/Krillin.webp",
+      "species": "HU",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 13,
+    "fields": {
+      "name": "Yamcha",
+      "description": "Yamcha es un exbandido del desierto y un poderoso luchador. Aunque ha tenido altibajos en su carrera como guerrero, Yamcha ha demostrado ser un aliado valioso en la lucha contra el mal. Es conocido por su habilidad en el combate cuerpo a cuerpo y su técnica de ataque, el Puño del Lobo. Yamcha también tiene un gran sentido del humor y a menudo aporta alivio cómico a la serie.",
+      "image": "characters/Yamcha.webp",
+      "species": "HU",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 14,
+    "fields": {
+      "name": "Chaoz",
+      "description": "Chaoz es un pequeño y leal amigo de Tenshinhan. Aunque es un humano, Chaoz ha demostrado tener habilidades especiales en combate, incluyendo el vuelo y el uso de energía. Es conocido por su naturaleza tranquila y su capacidad para tomar decisiones difíciles en situaciones críticas. Chaoz ha participado en varias batallas junto a Tenshinhan y los Guerreros Z.",
+      "image": "characters/Chaoz.webp",
+      "species": "HU",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 15,
+    "fields": {
+      "name": "Raditz",
+      "description": "Raditz es el hermano mayor de Goku y un Saiyajin de sangre pura. Es enviado a la Tierra para reclutar a Goku y llevarlo de regreso al Planeta Vegeta. Sin embargo, Raditz descubre que Goku ha perdido la memoria y se ha convertido en un defensor de la Tierra. Como antagonista, Raditz desempeña un papel importante en el desarrollo de la trama de Dragon Ball Z.",
+      "image": "characters/Raditz.webp",
+      "species": "SA",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 16,
+    "fields": {
+      "name": "Nappa",
+      "description": "Nappa es un poderoso Saiyajin y antiguo compañero de Vegeta. Juntos, Nappa y Vegeta viajan a la Tierra con el propósito de conquistarla. Nappa es conocido por su fuerza bruta y su falta de compasión. Durante su enfrentamiento con los Guerreros Z, Nappa demuestra ser un enemigo formidable y causa estragos en la batalla.",
+      "image": "characters/Nappa.webp",
+      "species": "SA",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 17,
+    "fields": {
+      "name": "Gohan",
+      "description": "Gohan es el primer hijo de Goku y Chi-Chi. Aunque al principio es un niño tímido e inocente, Gohan muestra un increíble potencial de combate y se convierte en un luchador poderoso. Su participación en la serie es fundamental, ya que desempeña un papel clave en la derrota de varios villanos. Gohan es un personaje querido por los fanáticos de Dragon Ball y su crecimiento y desarrollo a lo largo de la serie son destacables.",
+      "image": "characters/Gohan.webp",
+      "species": "HU",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 18,
+    "fields": {
+      "name": "Trunks",
+      "description": "Trunks es el hijo de Vegeta y Bulma, y un híbrido Saiyajin-Humano. A lo largo de la serie, se muestra a Trunks como un luchador valiente y decidido. Su participación en la lucha contra los Androides y Cell es fundamental para la supervivencia de la humanidad. Trunks es conocido por su cabello de color púrpura y su actitud confiada. Hay dos versiones de Trunks en la serie, uno proveniente del futuro y otro del presente.",
+      "image": "characters/Trunks.webp",
+      "species": "HU",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 19,
+    "fields": {
+      "name": "Goten",
+      "description": "Goten es el segundo hijo de Goku y Chi-Chi, y hermano menor de Gohan. Al igual que su hermano, Goten muestra un gran potencial de combate desde una edad temprana. Aunque es un niño juguetón e inocente, Goten demuestra ser un luchador formidable y es parte de las batallas cruciales en la serie. Su relación con Trunks es estrecha y juntos forman un equipo poderoso.",
+      "image": "characters/Goten.webp",
+      "species": "HU",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 20,
+    "fields": {
+      "name": "Android 18",
+      "description": "Android 18, cuyo nombre real es Lazuli, es un androide creado por el Dr. Gero. Originalmente era una humana llamada Lazuli, pero fue transformada en un androide con habilidades de combate sobrehumanas. Android 18 se une a los Guerreros Z y juega un papel importante en la lucha contra los Androides y Cell. Aunque es una luchadora poderosa, Android 18 también muestra un lado más suave y se preocupa por su familia.",
+      "image": "characters/Android18.webp",
+      "species": "AN",
+      "gender": "FE"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 21,
+    "fields": {
+      "name": "Cell",
+      "description": "Cell es un bioandroide creado a partir de células de varios guerreros poderosos, incluyendo a Goku, Vegeta y Freezer. Es un enemigo formidable que busca perfeccionar su poder absorbiendo a otros seres. Cell se convierte en uno de los villanos más poderosos de la serie y su confrontación con los Guerreros Z es épica y llena de acción.",
+      "image": "characters/Cell.webp",
+      "species": "AN",
+      "gender": "NA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 22,
+    "fields": {
+      "name": "Frieza",
+      "description": "Frieza es un tirano galáctico y uno de los principales antagonistas de la serie Dragon Ball. Es un miembro de la raza alienígena conocida como los Frost Demon, o simplemente los Freezer. Frieza es conocido por su crueldad y su sed de poder. Es uno de los villanos más icónicos de la franquicia y su batalla con Goku es legendaria.",
+      "image": "characters/Frieza.webp",
+      "species": "AN",
+      "gender": "NA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 23,
+    "fields": {
+      "name": "Beerus",
+      "description": "Beerus es el Dios de la Destrucción del Universo 7. Es un ser extremadamente poderoso y su deber es mantener el equilibrio en el universo destruyendo planetas y civilizaciones. Aunque tiene un temperamento irascible, Beerus también muestra un interés por la comida y es un personaje intrigante con su propia historia y motivaciones.",
+      "image": "characters/Beerus.webp",
+      "species": "AN",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 24,
+    "fields": {
+      "name": "Whis",
+      "description": "Whis es el asistente y maestro de Beerus, el Dios de la Destrucción. Es extremadamente poderoso y habilidoso en combate. Whis es conocido por su personalidad tranquila y su amor por la comida. Es un personaje enigmático que guarda muchos secretos y juega un papel importante en la serie.",
+      "image": "characters/Whis.webp",
+      "species": "AN",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 25,
+    "fields": {
+      "name": "Hit",
+      "description": "Hit es un asesino y mercenario del Universo 6. Es conocido por su habilidad para manipular el tiempo y su técnica de asesinato instantáneo. Hit es un luchador poderoso y frío, pero también tiene un sentido de honor. Su enfrentamiento con Goku es uno de los momentos más emocionantes de Dragon Ball Super.",
+      "image": "characters/Hit.webp",
+      "species": "AN",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 26,
+    "fields": {
+      "name": "Jiren",
+      "description": "Jiren es un guerrero extremadamente poderoso del Universo 11. Es miembro de las Tropas del Orgullo y es conocido por su fuerza abrumadora. Jiren es un luchador serio y reservado, y su objetivo principal es alcanzar la perfección en el combate. Su batalla con Goku y los Guerreros Z es épica y muestra el alcance de su poder.",
+      "image": "characters/Jiren.webp",
+      "species": "AN",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 27,
+    "fields": {
+      "name": "Kale",
+      "description": "Kale es una Saiyajin del Universo 6 y miembro del equipo de las Tropas del Orgullo. Es conocida como la Legendary Super Saiyajin y posee un poder inmenso. Kale es inicialmente tímida y tiene dificultades para controlar su poder, pero con el tiempo se vuelve más segura de sí misma. Su transformación en Super Saiyajin Berserk es impresionante y causa un gran impacto en la serie.",
+      "image": "characters/Kale.webp",
+      "species": "SA",
+      "gender": "FE"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 28,
+    "fields": {
+      "name": "Caulifla",
+      "description": "Caulifla es una Saiyajin del Universo 6 y hermana mayor de Kale. Es una luchadora talentosa y valiente. Caulifla tiene una personalidad fuerte y decidida, y su objetivo es convertirse en la Saiyajin más fuerte de todos los universos. Su transformación en Super Saiyajin es un momento destacado de la serie.",
+      "image": "characters/Caulifla.webp",
+      "species": "SA",
+      "gender": "FE"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 29,
+    "fields": {
+      "name": "Broly",
+      "description": "Broly es un Saiyajin legendario con un poder descomunal. Es conocido por su fuerza inigualable y su ferocidad en el combate. Broly es un personaje popular entre los fanáticos y su transformación en Super Saiyajin es impresionante. Su historia y su confrontación con Goku y Vegeta son temas destacados en las películas de Dragon Ball.",
+      "image": "characters/Broly.webp",
+      "species": "SA",
+      "gender": "MA"
+    }
+  },
+  {
+    "model": "character.character",
+    "pk": 30,
+    "fields": {
+      "name": "Majin Buu",
+      "description": "Majin Buu es un ser mágico y poderoso que se convierte en uno de los antagonistas principales de la serie. A lo largo de su historia, Majin Buu cambia de forma y personalidad, pasando de ser un villano peligroso a un aliado valioso. Su habilidad para absorber y transformarse lo hace impredecible en el combate.",
+      "image": "characters/MajinBuu.webp",
+      "species": "AN",
+      "gender": "NA"
+    }
   }
 ]
